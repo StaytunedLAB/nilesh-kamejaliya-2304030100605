@@ -71,9 +71,9 @@ Inline image:
 
 Relative image (stored in repo):
 ```md
-![logo](../public/markdown-log.jpg)
+![logo](../public/markdown-logo.jpg)
 ```
-![logo](../public/markdown-log.jpg)
+![logo](../public/markdown-logo.jpg)
 
 
 ## Blockquotes
