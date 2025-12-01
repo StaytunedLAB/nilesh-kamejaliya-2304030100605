@@ -8,6 +8,15 @@ let person = {
   "like programming": true,
 };
 
+// access keys 
+console.log(Object.keys(person));
+
+// access values
+console.log(Object.values(person));
+
+//access entries
+console.log(Object.entries(person));
+
 // get property values
 console.log(person.name);
 console.log(person["age"]);

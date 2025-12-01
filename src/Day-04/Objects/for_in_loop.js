@@ -1,3 +1,5 @@
+"use strict;";
+
 // for ..in loop
 let person = {
   name: "nick",
@@ -8,6 +10,10 @@ let person = {
 for (let key in person) {
   console.log(key + ": " + person[key]);
 }
+// Output:
+// name: nick
+// age: 21
+// like programming: true
 
 // integer properties appear in ascending order
 let codes = {
@@ -18,7 +24,12 @@ let codes = {
   1: "USA",
 };
 
-for (let code in codes) {
-  console.log(key + ": " + codes[code]);
+for (let key in codes) {
+  console.log(key + ": " + key[codes]);
 }
 
+// Output:
+// 1: USA
+// 41: Switzerland
+// 44: Great Britain
+// 49: Germany
