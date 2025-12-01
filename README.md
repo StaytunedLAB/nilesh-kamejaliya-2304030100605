@@ -1,34 +1,59 @@
-# 🚀 StaytunedLABS Internship Repository: Welcome!
+## Internship Progress — What I’ve Learned
 
-We are excited to welcome you to StaytunedLABS! This repository is your home base for the internship, containing all the code and documentation you need.
+## Day 01
 
-## 🌟 Our Focus
+- Created a GitHub account and applied for GitHub Education (to access Copilot Pro).
+- Opened my first GitHub issue to track Day-1 tasks.
+- Started learning JavaScript basics (Introduction) from: [https://javascript.info/](https://javascript.info/)
+- Learned about **Pareto’s Principle** (80/20 rule) — how 20% of effort creates 80% of outcomes.
+- Uploaded: `Day-1/js.basic`
 
-Our mission is to **empower India's educational institutes** and drive innovation.
 
-You are joining a community dedicated to collective growth and building a brighter future. Your role here is crucial and centered on **Real Project Experience**—you'll be working on industry-grade projects that deliver tangible impact.
+## Day 02
 
-| Key Support    | Available to You                    |
-| :------------- | :---------------------------------- |
-| **Mentorship** | 24/7 Expert Guidance                |
-| **Learning**   | Access to Free Training & Resources |
+- Learned more about GitHub repositories: creating, pushing, and managing files.
+- Cloned my internship repository: [StaytunedLAB/nilesh-kamejaliya-2304030100605](https://github.com/StaytunedLAB/nilesh-kamejaliya-2304030100605/tree/main)
+- Practiced writing `.md` files for GitHub READMEs and project documentation.
+- Learned about **Parkinson’s Law** — work expands to fill available time.
+- Read documentation for GitHub and Visual Studio Code.
+- Completed GitHub Skills: Introduction.
+- Uploaded: `Day-02/md_practice.md`
 
----
 
-## 🤝 Getting Started: Immediate Action
+## Day 03
 
-Start with our **[Documentation Index](./docs/index.md)** for comprehensive guides on GitHub, VS Code, and project setup. Then follow [SETUP.md](./docs/SETUP.md) to configure your development environment.
+- Read about VS Code debugging on the official website.
+- Continued learning JavaScript fundamentals.
+- Studied the **Forgetting Curve** — how memory retention works.
+- Uploaded: `Day-03`
+  - `index.html`
+  - `js_fundamentals.js`
+  - also add `mini-projects/` folder
 
-## 📂 Key Files & Structure
 
-| Directory/File    | Purpose                                   | Action                                  |
-| :---------------- | :---------------------------------------- | :-------------------------------------- |
-| `/src`            | All primary source code.                  | This is where you write your code.      |
-| `/docs`           | Project requirements and architecture.    | Start with [index.md](./docs/index.md) for overview. |
-| `CONTRIBUTING.md` | Code standards and submission guidelines. | **MUST READ** before your first commit. |
+## Day 04
 
-## ❓ Need Help?
+- Learned how AI can be leveraged in coding.
+- Explored integrating AI tools into projects like _Ejects_.
+- Studied code quality and JavaScript Objects (basics).
+- Learned the **importance of feedback** in any field.
+- Uploaded: `Day-04/objects`
 
-- Connect to [Discord](https://discord.com/invite/B8brHwTMf) Channel.
 
-We're glad to have you! Let's build something great together.
+## Day 05
+
+- Learned how system prompts work and how they can speed up learning.
+- Studied JavaScript data types.
+- Uploaded: `Day-05/Datatypes`
+
+
+## Day 06 — Advanced functions & PWA intro
+
+- Learned advanced concepts related to JavaScript functions.
+- Introduction to **Progressive Web Apps (PWA)**: purpose and benefits.
+- Learn about the camelCase naming convention.
+- Explored the importance of community and discussions.
+- Create a new Project which can create a issue format for me.
+- Uploaded: `Day-06/Advanced working with function`
+
+
