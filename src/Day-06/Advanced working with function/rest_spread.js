@@ -4,7 +4,7 @@ function sum(a, b) {
   return a + b;
 }
 
-alert(sum(1, 2, 3, 4, 5));
+console.log(sum(1, 2, 3, 4, 5)); // 3
 
 // rest perameters
 function sumAll(...args) {
