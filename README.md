@@ -57,3 +57,13 @@
 - Uploaded: `Day-06/Advanced working with function`
 
 
+## Day 07 — JS Prototypes, Git Conflicts & Data Science Intro
+
+* Visited the ECMA official website: [ECMA](https://ecma-international.org/)
+* Learned about the Compound Effect
+* Explored [Danfo.js](https://danfo.jsdata.org/)
+* Studied Git merge conflicts and issue handling
+* Introduction to data science and Power BI, also checked [Tableau](https://www.tableau.com/)
+* Learned object properties configuration, prototypes, and inheritance
+* Learned about merge conflicts in GitHub.
+* Uploaded: `Day-07/`
