@@ -67,3 +67,12 @@
 * Learned object properties configuration, prototypes, and inheritance
 * Learned about merge conflicts in GitHub.
 * Uploaded: `Day-07/`
+
+## Day 08 — GitHub Projects & Merge Conflicts
+
+* Gave exam part-01 and part-02
+* Learned about GitHub from GitHub Training: [githubtraining](https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class)
+* Studied two projects from the training manual:
+  * Project 1: Caption This
+  * Project 2: Merge Conflicts
+* Uploaded: `Day-08/github.md`
