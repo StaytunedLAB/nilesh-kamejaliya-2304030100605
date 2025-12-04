@@ -77,3 +77,13 @@
   * Project 2: Merge Conflicts
 * Uploaded: `Day-08/github.md`
 
+## Day 09 — GitHub Training Projects & JS Prototypes
+
+* Learned about GitHub from GitHub Training: [githubtraining](https://githubtraining.github.io/training-manual/#/13_workflow_review_project_github_games)
+* Studied two projects from the training manual:
+  * Project 3: GitHub Games
+  * Project 4: Local Repository
+* Learned prototypes and inheritance in JavaScript and started learning classes
+
+
+
