@@ -84,6 +84,7 @@
   * Project 3: GitHub Games
   * Project 4: Local Repository
 * Learned prototypes and inheritance in JavaScript and started learning classes
+* Update and Upload: `Day-08-09/github.md`
 
 
 
