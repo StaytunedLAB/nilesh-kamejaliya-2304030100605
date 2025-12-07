@@ -84,7 +84,16 @@
   * Project 3: GitHub Games
   * Project 4: Local Repository
 * Learned prototypes and inheritance in JavaScript and started learning classes
-* Update and Upload: `Day-08-09/github.md`
+* Update and Uploaded: `Day-08-09/github.md`
 
+## Day 10 — JS Classes, Error Handling & OOP Concepts
 
+* Learned classes in JavaScript and how they help organize code.
+* Started learning basic error handling using try/catch.
+* Explored more GitHub features and workflows.
+* Learned basic OOP concepts in JavaScript.
+* Checked Google Antigravity.
+* Learned about licenses.
+* Explored the ideas behind a design system.
+* Uploaded: `Day-10/`
 
