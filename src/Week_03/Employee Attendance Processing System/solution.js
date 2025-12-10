@@ -20,11 +20,10 @@ function calculateWorkHours(attendanceData) {
     if (!attendanceData?.checkIn || !attendanceData?.checkOut) {
       result.status = "incomplete";
       result.note = "Missing check-in or check-out time.";
-      return; // Exit early as per logic (Working time 0, Incomplete)
+      return result; // make sure to return the result object
     }
 
     // --- 2. Time Parsing Helper ---
-    // Expected format: "HH:mm" (24-hour)
     function parseTime(timeStr) {
       if (!timeStr || typeof timeStr !== "string")
         throw new Error(`Invalid time format: ${timeStr}`);
@@ -50,28 +49,29 @@ function calculateWorkHours(attendanceData) {
     const checkInMinutes = parseTime(attendanceData.checkIn);
     const checkOutMinutes = parseTime(attendanceData.checkOut);
 
-    // --- 3. Break Calculation ---
+    // --- 3. Break Calculation
     let breakDuration = 0;
-    const breaks = attendanceData.breaks || [];
 
-    // If breaks is not an array, maybe treat as no breaks? Or ignore. Assuming array.
-    if (Array.isArray(breaks)) {
-      breaks.forEach((brk) => {
-        if (brk.start) {
-          // If end is missing, default 30 mins
-          if (!brk.end) {
-            breakDuration += 30;
-            result.note += "Default break applied (30m). ";
-          } else {
-            const startMins = parseTime(brk.start);
-            const endMins = parseTime(brk.end);
-            let duration = endMins - startMins;
-            if (duration < 0)
-              throw new Error("Break end time is before start time");
-            breakDuration += duration;
-          }
-        }
-      });
+    const hasBreakStart =
+      typeof attendanceData.breaksStart === "string" &&
+      attendanceData.breaksStart.trim() !== "";
+
+    const hasBreakEnd =
+      typeof attendanceData.breaksEnd === "string" &&
+      attendanceData.breaksEnd.trim() !== "";
+
+    if (hasBreakStart) {
+      if (!hasBreakEnd) {
+        breakDuration += 30;
+        result.note += "Default break applied (30m). ";
+      } else {
+        const startMins = parseTime(attendanceData.breaksStart);
+        const endMins = parseTime(attendanceData.breaksEnd);
+        let duration = endMins - startMins;
+        if (duration < 0)
+          throw new Error("Break end time is before start time");
+        breakDuration += duration;
+      }
     }
 
     // --- 4. Total Calculation ---
@@ -121,9 +121,8 @@ function runTests() {
     date: "2023-10-25",
     checkIn: "09:00",
     checkOut: "17:00", // 8 hours = 480 mins
-    breaks: [
-      { start: "13:00", end: "13:30" }, // 30 mins break
-    ],
+    breaksStart: "12:00",
+    breaksEnd: "12:30", // 30 mins break
     overtimeApproved: false,
   });
 
@@ -133,9 +132,8 @@ function runTests() {
     date: "2023-10-25",
     checkIn: "08:00",
     checkOut: "18:00", // 10 hours = 600 mins
-    breaks: [
-      { start: "12:00" }, // Missing end -> 30 mins default
-    ],
+    breaksStart: "12:00",
+    breaksEnd: "", // Missing end, should default to 30 mins
     overtimeApproved: true,
   });
 
