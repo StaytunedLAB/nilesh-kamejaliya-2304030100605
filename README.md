@@ -31,3 +31,6 @@ Deepened JavaScript knowledge, worked with Git more effectively, and explored mo
 ## **Week 3 — Ongoing**
 
 * **Files:** [Week_03](https://github.com/StaytunedLAB/nilesh-kamejaliya-2304030100605/tree/tasks/src/Week_03)
+- [Practice(Basic)](https://github.com/StaytunedLAB/nilesh-kamejaliya-2304030100605/tree/tasks/src/Week_03/Practice)
+- [Banking System](https://github.com/StaytunedLAB/nilesh-kamejaliya-2304030100605/tree/tasks/src/Week_03/Banking_System)
+- [Employee Attendance System](https://github.com/StaytunedLAB/nilesh-kamejaliya-2304030100605/tree/tasks/src/Week_03/Employee_Attendance_System)
