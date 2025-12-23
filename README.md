@@ -9,7 +9,7 @@ Focused on building the foundation for development and familiarizing myself with
 - Practiced Markdown for documentation
 - Learned JavaScript basics: introduction, data types, fundamentals, and simple scripts
 - Explored productivity concepts: Pareto Principle & Parkinson’s Law
-- **Files:** [Week_01](https://github.com/StaytunedLAB/nilesh-kamejaliya-2304030100605/tree/tasks/src/Week_01)
+- **Files:** [Week_01](https://github.com/StaytunedLAB/nilesh-kamejaliya-2304030100605/tree/main/src/Week_01)
 
 ---
 
@@ -22,7 +22,7 @@ Deepened JavaScript knowledge, worked with Git more effectively, and explored mo
 - Studied Git merge conflicts and completed GitHub Training projects
 - Explored PWAs, design systems, AI-assisted coding, and JavaScript community practices
 - Introduction to data science tools: Danfo.js, Tableau, Power BI
-- **Files:** [Week_02](https://github.com/StaytunedLAB/nilesh-kamejaliya-2304030100605/tree/tasks/src/Week_02)
+- **Files:** [Week_02](https://github.com/StaytunedLAB/nilesh-kamejaliya-2304030100605/tree/main/src/Week_02)
 
 ---
 
@@ -42,7 +42,7 @@ Focused on applying JavaScript concepts to real-world scenarios with an emphasis
   - Leap Year Checker
   - Palindrome Checker
 - Focused on writing clean, readable, and crash-proof code that handles incorrect input gracefully
-- **Files:** [Week_03](https://github.com/StaytunedLAB/nilesh-kamejaliya-2304030100605/tree/tasks/src/Week_03)
+- **Files:** [Week_03](https://github.com/StaytunedLAB/nilesh-kamejaliya-2304030100605/tree/main/src/Week_03)
 
 ---
 
@@ -58,4 +58,4 @@ Focused on improving workflow efficiency through automation and learning modern 
   - GitHub CLI
 - Worked on personal automation tasks to strengthen workflow management and productivity
 - Studied Firebase fundamentals, including its purpose, core services, and role in modern applications
-- **Files:** [Week_04](https://github.com/StaytunedLAB/nilesh-kamejaliya-2304030100605/tree/tasks/src/Week_04)
+- **Files:** [Week_04](https://github.com/StaytunedLAB/nilesh-kamejaliya-2304030100605/tree/main/src/Week_04)
